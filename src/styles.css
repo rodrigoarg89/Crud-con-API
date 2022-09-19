@@ -1,0 +1,144 @@
+* {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 70px;
+  }
+  
+  form {
+    text-align: left;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 5%;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+  }
+
+  button {
+    border-style: none;
+  }
+  
+  button.clear {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.submit {
+    padding: 10px;
+    margin-right: 10px;
+    background: greenyellow;
+    color: black;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+
+
+  }
+
+  h1 {
+    margin-bottom: 10%;
+    text-align: center;
+
+  }
+
+  .h1-list {
+    margin: 5% 0;
+  }
+
+  .div-container {
+    padding-top: 10%;
+  }
+  
+  .users-container {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin: 0 auto;
+    padding-top: 20px;
+
+    
+  } 
+
+  .user-item {
+    list-style: none;
+    display: grid;
+    padding: 35px;
+    color: white;
+    border-radius: 7px;;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .name-item {
+    margin: 10% 0;
+  }
+
+ 
+  
+  span {
+    margin-right: 3%;
+  }
+
+  .btn-user {
+    margin-top: 5%;
+    margin-left: 75%;
+    border-style: none;
+    display: flex;
+    gap: 10px;
+    color: red;
+  }
+
+  button {
+    /* background-color: transparent; */
+    background-color: rgba(10, 9, 9, 0.17);
+    padding: 5px;
+  }
+  
+  .fa-trash {
+    color: red;
+    background-color: none;
+
+  }
+
+  .fa-pen {
+    color: rgb(16, 225, 16);
+  }
+
+
+
+  
+  .img-user {
+    border-radius: 50%;
+  }
+  
+  body {
+    /* background-image: url('http://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-paginas-web-grandes.jpg'); */
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-degradado-lineas-dinamicas_23-2149020264.jpg?w=740&t=st=1663629145~exp=1663629745~hmac=de668c83f1761b298da7ae01fe5daafb0174f266ff7ad4eefd16e8512b31a80b');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
